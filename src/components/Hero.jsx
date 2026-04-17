@@ -25,13 +25,6 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            {/* Badge */}
-            <div className="inline-block px-4 py-1.5 bg-brand-purple/10 dark:bg-brand-purple/20 rounded-lg border border-brand-purple/10 mb-8">
-              <span className="text-brand-purple dark:text-brand-purple-light font-black tracking-widest uppercase text-[10px]">
-                DIGITAL CURATOR
-              </span>
-            </div>
-            
             {/* Main Headline */}
             <h1 className="flex flex-col mb-10">
               <span className="text-7xl md:text-8xl lg:text-9xl font-display italic font-black text-[#1A1A1A] dark:text-white/90 leading-[0.9] tracking-tighter">
